@@ -5,14 +5,33 @@ a plugin (namely [this plugin](https://www.npmjs.com/package/cordova-plugin-netw
 
 <br>
 
-After cloning this repository the following commands have to be executed:
+----
+## Building the app
+
+After cloning or downloading this repository the following commands have to be executed:
 
 ````
     npm install
     cordova prepare
 ````    
 
-After this you can build the app for Android (APK file) using the following command:
+<br>
+
+After this please enter the following command to check whether Android is added as target platform:
+````
+    cordova platforms
+````
+
+<br>
+
+Enter also the following command to check if the plugin for querying the network state is present:
+````
+    cordova plugins
+````
+
+<br>
+
+To build the app (APK file for Android) enter the following command.
 
 ````
     cordova build
