@@ -1,5 +1,6 @@
 /*jshint esversion: 6 */
 
+/* This file is licensed under the terms of the BSD 3-Clause License. */
 
 /*
  * Event-Handler für Button zum Abfragen von Netzwerk-Status.
