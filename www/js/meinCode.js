@@ -2,6 +2,7 @@
 
 /* This file is licensed under the terms of the BSD 3-Clause License. */
 
+
 /*
  * Event-Handler für Button zum Abfragen von Netzwerk-Status.
  */
@@ -22,6 +23,7 @@ function netzwerkStatusAbfragen() {
  * "deviceready".
  */
 function onDeviceReadyHandler() {
+
     console.log("Cordova ist jetzt bereit.");
 
     $("#buttonNetzwerkStatus").click( netzwerkStatusAbfragen );
