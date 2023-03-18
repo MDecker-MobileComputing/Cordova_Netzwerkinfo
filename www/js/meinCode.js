@@ -9,6 +9,7 @@
 function netzwerkStatusAbfragen() {
     
     if (navigator.connection === undefined) {
+        
         $("#ergebnis").text("FEHLER: Connection-Objekt nicht vorhanden.");
         return;
     }
@@ -32,4 +33,3 @@ function onDeviceReadyHandler() {
 
 // Event-Handler-Funktion für "deviceready" registrieren
 $(document).on("deviceready", onDeviceReadyHandler);
-
